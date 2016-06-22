@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>PAN+</title>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function(){
+    $.ajax({
+     url: "https://app.sycamoreschool.com/api/v1/Me", 
+     type: "GET",
+     beforeSend: function(xhr){
+         xhr.setRequestHeader('Authorization', 'Bearer 88f21dd01d93b766925a0069f5bece03');
+     }
+
+            }).done(function(data){
+                alert(data.LastName);
+            });
+		});
+	</script>
+</head>
+<body>
+	<p> hello world!</p>
+</body>
+</html>
