@@ -3018,7 +3018,6 @@
 		opacity: 1;
 		visibility: visible;
 	}
-
 		body.is-menu-visible #menu .inner {
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
@@ -3026,7 +3025,6 @@
 			transform: translateY(0);
 			opacity: 1;
 		}
-
 /* Banner */
 
 	#banner {
